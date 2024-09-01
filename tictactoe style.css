@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding : 0;
+}
+body{
+    background-color: rgb(8, 107, 76);
+    text-align: center;
+    margin-top: 20px;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(227, 203, 16);
+    font-size: 35px;
+    margin-top: 40px;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.game{
+    height: 60vmin;  
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.renew{
+    margin-top: 10px;
+}
+.box{
+    height: 18vmin;  /*   30% of 60vmin */
+    width: 18vmin;
+    border-radius: 14px;
+    border: none;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    font-size: 75px;
+    color: rgb(87, 232, 25);
+}
+#reset,.renew{
+    background-color: rgb(38, 38, 36);
+    color: rgb(244, 232, 234);
+    font-size: 20px;
+    height: 60px;
+    width: 180px;
+    border-radius:12px ;
+    padding: 10px;
+}
+.msg{
+    font-size: 30px;
+    color:beige;
+}
+.msg-container{
+ height:130px;
+}
+.hide{
+    display: none;
+}
